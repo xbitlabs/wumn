@@ -13,8 +13,8 @@ edition = "2018"
 [dependencies]
 log = "0.4"
 #postgres = {version = "0.15",features = ["with-uuid","with-chrono","with-time","with-openssl","with-geo","with-bit-vec", "with-serde_json"], optional = true}
-postgres = {version = "0.15",features = ["with-uuid","with-chrono","with-time","with-geo","with-bit-vec", "with-serde_json"], optional = true}
-postgres-shared = {version = "0.4", optional = true}
+postgres = {version = "0.19.4",features = ["with-uuid","with-chrono","with-time","with-geo","with-bit-vec", "with-serde_json"], optional = true}
+postgres-shared = {version = "0.4.2", optional = true}
 #openssl = {version = "0.10", optional = true}
 url = "1.5"
 cfg-if = "0.1.2"
